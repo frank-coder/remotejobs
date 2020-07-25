@@ -1,0 +1,13 @@
+{% extends 'jobs/header.html' %}
+<head>
+<title>twitpy Jobs</title>
+</head>
+<body>
+    {% block content %}
+        {% for my_job in job %}
+            <p>{{my_job.text}}</p>
+            <p>{{my_job.created_on}}</p>
+            <p>{{my_job.link}}</p>
+        {% endfor %}
+    {% endblock %}
+</body>
