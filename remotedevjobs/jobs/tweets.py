@@ -16,8 +16,8 @@ application = get_wsgi_application()
 
 from jobs.models import Jobs
 
-consumer_key = "CZyVuEwt6k2fJkuL8W6GC7YTx"  # Add your API key here
-consumer_secret = "Z61gNjPuEdQyZKGw4KJCwWKhmSzNmQIZ0SdTy3kVn3T6zv1yRi"  # Add your API secret key here
+consumer_key = "API KEY HERE"  # Add your API key here
+consumer_secret = "API SECRET"  # Add your API secret key here
 
 stream_url = "https://api.twitter.com/labs/1/tweets/stream/filter"
 rules_url = "https://api.twitter.com/labs/1/tweets/stream/filter/rules"
